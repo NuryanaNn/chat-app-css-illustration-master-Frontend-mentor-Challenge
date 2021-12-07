@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.bg{
+    position: absolute;
+    background-image: linear-gradient(to bottom, #dd40ff, #9c3ef6 );
+    width: 300px;
+    height: 750px;
+    border-radius: 0 0 300px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: -100px;
+}
+
+.chat{
+    z-index: 111;
+    margin-top: 30px;
+    background: #fff;
+    height: 650px;
+    width: 300px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px 5px rgba(2, 2, 2, 0.09);
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.chat .device .top{
+    background-image: linear-gradient(to right, #9c3ef6 , #dd40ff);
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.chat .device .top .speaker{
+    background: #fff;
+    height: 30px;
+    width: 100px;
+    margin-top: -20px;
+    margin-left: 35%;
+    border-radius: 0 0 10px 10px;
+}
+
+.chat .device .textTop ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.chat .device .textTop ul li p{
+    color: #fff;
+    margin-top: 3px;
+}
+
+.chat .device .textTop ul li span{
+    margin-top: -15px;
+    color: #fff;
+    position: absolute;
+    font-size: 0.8em;
+}
+
+.chat .device .textTop img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #fff;
+}
+
+
+/* Android body */
+.bodyText{
+    background: #f5f3f8;
+    height:560px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+.bodyText p{
+    margin-top: 10px;
+    background: #efe4f5;
+    max-width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 10px;
+}
+
+/* Dog Images */
+.dogImg{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.dogImg ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.dogImg ul li{
+    margin-right: 5px;
+}
+
+.dogImg ul li img{
+    width: 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.reply{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.cht h3{
+    background-image: linear-gradient(to right, #dd40ff, #9c3ef6 );
+    margin-top: 10px;
+    width: 200px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 10px 10px 10px 0;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.cht h3:nth-child(1) span{
+    margin-left: 50px;
+}
+
+.cht h3:nth-child(2) span{
+    margin-left: 70px;
+}
+
+.inputText{
+    background: #fff !important;
+    width: 250px !important;
+    margin-top: 15px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    color: #efe4f5;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.inputText .btn ion-icon{
+    font-size: 3em;
+    color: #000;
+}
+
+.booking{
+    margin-left: 40px;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.booking h1{
+    margin-bottom: 10px;
+}
+
+.booking p{
+    color: #c6c5ca;
+}
+
+@media(min-width:992px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .bg{
+        position: absolute;
+        background-image: linear-gradient(to bottom, #dd40ff, #9c3ef6 );
+        width: 450px;
+        height: 800px;
+        border-radius: 0 0 300px 300px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .chat{
+        z-index: 111;
+        margin-top: 30px;
+        background: #fff;
+        height: 650px;
+        width: 300px;
+        margin-left: 240px;
+        box-shadow: 5px 5px 5px 5px rgba(2, 2, 2, 0.09);
+        border-radius: 30px 30px 30px 30px;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .chat .device .top{
+        background-image: linear-gradient(to right, #9c3ef6 , #dd40ff);
+        padding: 5px 5px 5px 5px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .chat .device .top .speaker{
+        background: #fff;
+        height: 30px;
+        width: 100px;
+        margin-top: -20px;
+        margin-left: 35%;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .chat .device .textTop ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    .chat .device .textTop ul li p{
+        color: #fff;
+        margin-top: 3px;
+    }
+    
+    .chat .device .textTop ul li span{
+        margin-top: -15px;
+        color: #fff;
+        position: absolute;
+        font-size: 0.8em;
+    }
+    
+    .chat .device .textTop img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        border: 1px solid #fff;
+    }
+    
+    
+    /* Android body */
+    .bodyText{
+        background: #f5f3f8;
+        height:560px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 0 0 20px 20px;
+    }
+    
+    .bodyText p{
+        margin-top: 10px;
+        background: #efe4f5;
+        max-width: 200px;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5px 5px 5px 10px;
+    }
+    
+    /* Dog Images */
+    .dogImg{
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .dogImg ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    .dogImg ul li{
+        margin-right: 5px;
+    }
+    
+    .dogImg ul li img{
+        width: 50px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    
+    .reply{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    
+    .cht h3{
+        background-image: linear-gradient(to right, #dd40ff, #9c3ef6 );
+        margin-top: 10px;
+        width: 200px;
+        height:40px;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        border-radius: 10px 10px 10px 0;
+        color: #fff;
+        font-size: 0.8em;
+    }
+    
+    .cht h3:nth-child(1) span{
+        margin-left: 50px;
+    }
+    
+    .cht h3:nth-child(2) span{
+        margin-left: 70px;
+    }
+    
+    .inputText{
+        background: #fff !important;
+        width: 250px !important;
+        margin-top: 15px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 20px;
+        color: #efe4f5;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .inputText .btn ion-icon{
+        font-size: 3em;
+        color: #000;
+    }
+    
+    .booking{
+        margin-left: 100px;
+        max-width: 400px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+        text-align: left;
+    }
+    
+    .booking h1{
+        margin-bottom: 10px;
+    }
+    
+    .booking p{
+        color: #c6c5ca;
+    }
+}
+
+
